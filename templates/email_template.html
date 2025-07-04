@@ -1,0 +1,15 @@
+<html>
+  <body>
+    {% for website in websites %}
+        <h3>{{ website.name }}</h3>
+        <ul>
+          {% for news in website.news %}
+              <li>
+                  <h4><a href="{{ news.link }}">{{ news.title }}</a></h4>
+                  {{ news.summary }}
+              </li>
+          {% endfor %}
+        </ul>
+    {% endfor %}
+  </body>
+</html>
