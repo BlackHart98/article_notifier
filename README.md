@@ -1,4 +1,4 @@
-# BigThink Article Notifier
+# Article Notifier
 
 This a very stripped down website scrapping tool, I use to stay updated on the new BigThink articles, this only works for Gmail
 
