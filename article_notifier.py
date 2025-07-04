@@ -140,8 +140,7 @@ if __name__ == "__main__":
             sys.exit()
         else:
             offset = True
-    
-    # websites  
+     
     bigthink = BigThink()
     websites : Scraped = {bigthink}
     
