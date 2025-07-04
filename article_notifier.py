@@ -98,7 +98,11 @@ def get_update(
     
 
 
-def send_gmail_thread(sender_email, sender_password, recipient_email, updates : t.Dict[str, t.List[t.Dict[str, str]]]) -> None:
+def send_gmail_thread(
+    sender_email, 
+    sender_password, 
+    recipient_email, 
+    updates : t.Dict[str, t.List[t.Dict[str, str]]]) -> None:
     try:
         alert_group = []
         for item in updates:
