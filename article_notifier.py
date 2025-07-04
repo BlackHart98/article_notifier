@@ -160,7 +160,7 @@ if __name__ == "__main__":
                 print("INFO: New articles found")
                 print(f"INFO: Sending email thread to recipient: {recipient}")
                 send_gmail_thread(EMAIL, PASSWORD, recipient, updates)
-                print("INFO: Sent email to recipient: {recipient}")
+                print(f"INFO: Sent email to recipient: {recipient}")
         else:
             offset = False
         previous_state_in_mem = current_state
